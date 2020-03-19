@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14c2a596b73f70f2572860a99a8678a0",
+    "revision": "541b147b869b6c926d944ba0a5feb660",
     "url": "/react-deck-cards/index.html"
   },
   {
-    "revision": "aff608784390d790d464",
+    "revision": "b5030baf36411beaaa5a",
     "url": "/react-deck-cards/static/css/main.cea21e8d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-deck-cards/static/js/2.1c9b6b80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aff608784390d790d464",
-    "url": "/react-deck-cards/static/js/main.18f5b62e.chunk.js"
+    "revision": "b5030baf36411beaaa5a",
+    "url": "/react-deck-cards/static/js/main.bd64a10c.chunk.js"
   },
   {
     "revision": "4d677574e06726d8f31d",
