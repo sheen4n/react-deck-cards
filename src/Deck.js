@@ -28,7 +28,10 @@ const Deck = () => {
   const getCard = async () => {
     try {
       const { data } = await http.get(`/${deck.deck_id}/draw`);
-
+      if (data.remaining === 0) {
+        alert('No more cards remaining!');
+        return;
+      }
       if (!data.success) throw new Error('Failed to draw card');
       const card = data.cards[0];
       setDrawn([
