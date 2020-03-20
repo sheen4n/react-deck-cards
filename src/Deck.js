@@ -6,7 +6,6 @@ import './Deck.css';
 const Deck = () => {
   const [deck, setDeck] = useState(null);
   const [drawn, setDrawn] = useState([]);
-  console.log(drawn);
 
   const getDeck = async () => {
     const { data } = await http.get('/new/shuffle');
