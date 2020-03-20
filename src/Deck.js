@@ -7,12 +7,11 @@ const Deck = () => {
   const [deck, setDeck] = useState(null);
   const [drawn, setDrawn] = useState([]);
 
-  const getDeck = async () => {
-    const { data } = await http.get('/new/shuffle');
-    setDeck(data);
-  };
-
   useEffect(() => {
+    const getDeck = async () => {
+      const { data } = await http.get('/new/shuffle');
+      setDeck(data);
+    };
     getDeck();
     return () => {};
   }, []);
@@ -48,7 +47,7 @@ const Deck = () => {
   };
 
   return (
-    <div class='Deck'>
+    <div className='Deck'>
       <h1 className='Deck-title'>♦ Card Dealer ♦</h1>
       <h2 className='Deck-title subtitle'>♦ A little demo made with React ♦</h2>
 
